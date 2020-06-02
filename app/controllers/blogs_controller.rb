@@ -42,6 +42,8 @@ class BlogsController < ApplicationController
   end
 
   def blog_params
-    params.require(:blog).permit(:title)
+# エラー原因: コンテントが渡されていないためにバリデーションエラーが発生している  
+# 修正の意図: データを渡す
+    params.require(:blog).permit(:title, :content)
   end
 end
