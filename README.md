@@ -23,7 +23,7 @@ step3: push your commits and create PullRequest on Github
 `git commit -m "Fix: [write your message]"`  
 `git push origin bugfix`  
 
-
+git commit -m "Fix: routesファイルのスペルミス"
 # Requirement(Option)
 
 When you fix bugs, write comment `Cause` and `Reason` above your code.  
